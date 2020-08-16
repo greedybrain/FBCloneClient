@@ -1,0 +1,12 @@
+$fbBlue: #1877f2;
+$balooTammaFont: 'Baloo Tamma 2',
+cursive;
+$russoOneFont: 'Russo One',
+sans-serif;
+div.signup-form-header {
+    border: 1px solid #333;
+    h1 {
+        font-family: $balooTammaFont;
+        font-size: 2.5rem;
+    }
+}

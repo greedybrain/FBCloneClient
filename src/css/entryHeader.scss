@@ -1,0 +1,66 @@
+$fbBlue: #1877f2;
+$balooTammaFont: 'Baloo Tamma 2',
+cursive;
+$russoOneFont: 'Russo One',
+sans-serif;
+header.entry-header {
+    background-color: $fbBlue;
+    height: 13vh;
+    width: 98%;
+    margin: 10px auto 0 auto;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px 0 50px;
+    div.logo {
+        h1 {
+            font-family: $russoOneFont;
+            font-size: 2.5rem;
+            letter-spacing: 2px;
+            color: #fff;
+        }
+    }
+    div.login-form {
+        form {
+            display: flex;
+            margin-top: 15px;
+            div {
+                display: flex;
+                &:not(:last-child) {
+                    margin-right: 15px;
+                    width: 200px;
+                    height: 35px;
+                }
+                input {
+                    border: none;
+                    width: 100%;
+                    height: 100%;
+                    padding-left: 10px;
+                    font-family: $balooTammaFont;
+                    font-size: 1rem;
+                    outline: none;
+                    border-radius: 5px;
+                }
+                button {
+                    width: 75px;
+                    height: 100%;
+                    border-radius: 5px;
+                    outline: none;
+                    border: none;
+                    background-color: #fff;
+                    color: $fbBlue;
+                    cursor: pointer;
+                }
+            }
+        }
+        p.forgot-password {
+            position: relative;
+            top: 2px;
+            a {
+                font-family: $balooTammaFont;
+                color: #eeeeeed5;
+            }
+        }
+    }
+}

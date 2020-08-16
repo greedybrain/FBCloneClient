@@ -1,11 +1,13 @@
 import React, { Component } from 'react'
-import Header from './Header'
+import HeaderContainer from './HeaderContainer'
+import Signup from '../components/Signup'
 
 export default class EntryPageContainer extends Component {
     render() {
         return (
-            <div className="wrapper">
-                <Header />
+            <div className="entry-page-wrapper">
+                <HeaderContainer />
+                <Signup />
             </div>
         )
     }
