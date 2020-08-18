@@ -17,9 +17,15 @@ input {
     border-radius: 5px;
 }
 
+li {
+    list-style-type: none;
+}
+
 body {
     background-color: whitesmoke;
     .entry-page-wrapper {
         height: 100vh;
+        max-width: 1200px;
+        margin: 0 auto;
     }
 }

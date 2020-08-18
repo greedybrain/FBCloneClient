@@ -1,0 +1,48 @@
+$fbBlue: #1877f2;
+$balooTammaFont: 'Baloo Tamma 2',
+cursive;
+$russoOneFont: 'Russo One',
+sans-serif;
+footer.entry-footer {
+    border: 1px solid #eeeeee;
+    width: 98%;
+    margin: 50px auto 10px auto;
+    border-radius: 8px;
+    background-color: #fff;
+    font-family: $balooTammaFont;
+    line-height: 1.1;
+    padding-top: 50px;
+    ul {
+        display: flex;
+        padding: 5px 0;
+        width: 85%;
+        border-bottom: 1px solid #e4e4e4;
+        margin: 10px auto;
+        li {
+            margin-left: 15px;
+            font-size: .9rem;
+            cursor: pointer;
+            &:not(:first-child) {
+                color: $fbBlue;
+            }
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+    ul.services {
+        flex-wrap: wrap;
+        line-height: 1.3;
+        border-bottom: none;
+        li {
+            color: $fbBlue;
+        }
+    }
+    div.copyright {
+        width: 85%;
+        margin: 20px auto 0 auto;
+        padding: 0 0 15px 15px;
+        color: #838383;
+        font-size: .8rem;
+    }
+}
