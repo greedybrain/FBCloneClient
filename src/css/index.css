@@ -10,11 +10,18 @@ a {
   text-decoration: none;
 }
 
+input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+
 body {
   background-color: whitesmoke;
 }
 
 body .entry-page-wrapper {
-  border: 1px solid green;
   height: 100vh;
 }
